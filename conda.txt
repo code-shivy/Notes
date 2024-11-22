@@ -1,0 +1,3 @@
+ Create a conda env: conda create -n <Name of the project> python=3.12
+ Activate the project: conda activate wafer3
+ Deactivate the project: conda deactivate

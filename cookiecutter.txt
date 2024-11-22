@@ -1,0 +1,12 @@
+Doc: https://www.cookiecutter.io/
+Install cookiecutter template : pip install cookiecutter
+Start a new project: cookiecutter https://github.com/drivendata/cookiecutter-data-science -c v1
+After above step you'll be given options in the command line.
+project_name:
+repo_name:
+author_name:
+description:
+Select open_source_license:
+s3_bucket [Optional]:
+Select python_interpreter:
+Once you are done with above step you'll see a following directory structure inside a directory by your given project_name
