@@ -24,3 +24,32 @@ for example:
   <li>Frontend</li>
 </ol>
 
+4. <pre> 
+this is a preformatted text tag, this tag preserves whitespaces which can be useful when indentation and newlines need to be preserved. 
+for example:
+<pre>
+      *
+    *****
+   *******
+  *********
+</pre>
+
+5. <br> 
+This is line break tag, is used to create a line break in text, for example:
+<p>
+  Dear User, <br />
+  We hope you are enjoying!
+</p>
+
+6. <a> 
+The anchor tag used to linkn another pages. The tag should include href attribute with the path to the page being linked. 
+For example:
+<a href="https://google.com">Google</a>
+
+7. <em> 
+the emphasis tag usually rendered as italics by default in browser
+for example: <p> I <em>need</em> to study! </p>
+
+8. <strong>
+It usually rendered as bold by default in browser
+for example: <p><strong>Note:</strong> This is important!</p>
