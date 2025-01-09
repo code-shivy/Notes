@@ -1,0 +1,26 @@
+1. Paragraph & Headings
+The <p> tag is the fundamental block for text content, able to hold both text and other elements. 
+Headings range from <h1> to <h6>, with h1 being your main heading and subsequent numbers for subheadings of decreasing importance.
+
+2. Images & Attributes
+The <img> tag is self-closing and requires two key attributes: src for the image location and alt for accessibility text. 
+for example: <img src="img/dog.png" alt="dog" />
+This ensures images are both displayable and accessible.
+
+3. List Structures
+HTML offers two main list types: unordered (<ul>) for bullet points and ordered (<ol>) for numbered sequences. 
+Both use <li> for individual items. Lists can be nested inside each other for complex hierarchies, like creating subtasks or subcategories.
+for example: 
+<ul>
+  <li>Shubham</li>
+  <li>Shivy</li>
+  <li>Frontend</li>
+</ul>
+
+<ol> is used for a list where order matters, by default most browsers will show this as a numbered list
+<ol>
+  <li>Shubham</li>
+  <li>Shivy</li>
+  <li>Frontend</li>
+</ol>
+
