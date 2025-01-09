@@ -14,3 +14,16 @@ Semantic Grouping Tags and Their Uses:
 
 The key point is that these tags give meaning to different parts of the page - they tell both humans and machines what role each section plays in the document structure. Using them properly makes your HTML more semantic and meaningful rather than just using generic containers everywhere.
 Remember that misusing these tags or overusing generic tags instead of semantic ones makes your HTML lose its semantic value.
+
+For example
+<header>
+  <h1>This is the main heading of the page.</h1>
+</header>
+
+<main>
+  <h2>This is the main section of the page.</h2>
+</main>
+
+<footer>
+  <h2>This is a page footer.</h2>
+</footer>
