@@ -1,0 +1,16 @@
+Semantic HTML means using HTML tags that clearly describe the content's purpose. 
+We should avoid overusing generic tags like <div> and <span> when semantic tags would be more appropriate.
+
+
+Semantic Grouping Tags and Their Uses:
+
+<article> - For standalone content you could share independently
+<section> - Groups related content together thematically 
+<header> - Contains introductory content
+<main> - The primary content (only one per page)
+<nav> - Navigation links section
+<aside> - Extra content that's not essential (like sidebars)
+<footer> - Bottom section with things like copyright info
+
+The key point is that these tags give meaning to different parts of the page - they tell both humans and machines what role each section plays in the document structure. Using them properly makes your HTML more semantic and meaningful rather than just using generic containers everywhere.
+Remember that misusing these tags or overusing generic tags instead of semantic ones makes your HTML lose its semantic value.
