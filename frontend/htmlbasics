@@ -1,0 +1,6 @@
+1. Tag: 
+Syntax: <tagname>content</tagname>
+For example paragraphs use the p tag so we create hello world using <p>Hello World</p>
+Some tags don't have a closing tag like horizontal rules: <hr> or <hr/>
+
+2. Attribute: 
