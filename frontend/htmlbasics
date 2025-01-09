@@ -4,3 +4,28 @@ For example paragraphs use the p tag so we create hello world using <p>Hello Wor
 Some tags don't have a closing tag like horizontal rules: <hr> or <hr/>
 
 2. Attribute: 
+Provides extra info to html elements. 
+Syntax: <tagname attribute="value">content</tagname> for example: <input type="checkboc" />
+
+3. <!Doctype html>
+This is the first line of every html file for telling browser which version of html to use, A doctype will use modern html5 standard. 
+While a page would usually render without doctype, they should always be included as some older browsers will not render pages following modern specifications without it. 
+
+4. <head>
+
+Tha tag containing metadata about the HTML document. The <title> is the only required tag within the <head>. 
+This gives the page a title which is used by browsers to name the tab and it also gets used for search results in many search engines.
+
+5. <body>
+The tag that contains the content of the webpage. 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+  </body>
+</html>
