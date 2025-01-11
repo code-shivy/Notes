@@ -1,0 +1,29 @@
+1. It is an html tag for representing data with rows and columns. Anything that can go in a spreadsheet can go in a table.
+2. There are multiple tags associated with tables:
+<tr> : A single row in the table.
+<th> : A heading in the table. This should be used with the scope attribute of either row or col to choose what the content is a heading for.
+<td> : A single piece of data in the table, also referred to as a cell.
+<thead> : A grouping tag for the heading of a table, usually containing a single <tr> with column headings.
+<tbody> : A grouping tag for the body of the table, used for containing the primary rows of data.
+<tfoot> : A grouping tag for the footer of the table.
+<caption> : A caption or title for the table.
+
+3. Scope attribute can be used with the tag to make html semantically more correct. 
+  for example, scope tells that category is column attribute and Food and Entertainment, so anyone looking can understand if the variable is related to a row or column.: 
+  <th scope="col">Category</th>
+      <th scope="col">Budget</th>
+      <th scope="col">Spending</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">Food</th>
+      <td>$200</td>
+      <td>$100</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Entertainment</th>
+      <td>$250</td>
+      <td>$300</td>
