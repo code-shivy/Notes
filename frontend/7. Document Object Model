@@ -1,0 +1,6 @@
+DOM is the programming interface for interacting with an HTML document represented as a tree data structure. 
+Each HTML element in the document is a node in the DOM tree, with nested content represented as a child in the tree.
+
+It basically:
+1. Provides us with an API.
+2. Helps browser be aware of HTML elements present. 
