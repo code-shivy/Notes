@@ -4,4 +4,4 @@ Each HTML element in the document is a node in the DOM tree, with nested content
 It basically:
 1. Provides us with an API.
 2. Helps browser be aware of HTML elements present. 
-![img]/var/folders/tl/_c1bkf_j1wzcz973cnjm1m480000gn/T/TemporaryItems/NSIRD_screencaptureui_pwrUGH/Screenshot 2025-01-11 at 2.46.44 PM.png
+![img] /var/folders/tl/_c1bkf_j1wzcz973cnjm1m480000gn/T/TemporaryItems/NSIRD_screencaptureui_pwrUGH/Screenshot 2025-01-11 at 2.46.44 PM.png
