@@ -30,6 +30,7 @@ section h2 {
   height: 100;
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .banner .blocks {
@@ -48,9 +49,15 @@ section h2 {
   }
   50% {
     opacity: 1;
+    background: url(teddy.jpg);
+    background-position: center;
+    background-attachment: fixed;
   }
   100% {
     opacity: 1;
-    transform: scale(1)12 translateY(0px);
+    transform: scale(1) translateY(0px);
+    background: url(teddy.jpg);
+    background-position: center;
+    background-attachment: fixed;
   }
 }
